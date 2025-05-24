@@ -1,0 +1,38 @@
+###################1##################
+# Pedir el ingreso de una clave. Validar que el ingreso del usuario sea correcto. Tendrá intentos indeterminados.
+# clave = 1234
+# ingreso = int(input("Ingrese la claver: "))
+
+# while ingreso != clave:
+#     print( "clave incorrecta, vuelva a intentar")
+#     ingreso = int(input("Ingrese la claver: "))
+# print("clave correcta!!")
+
+###################2##################
+# clave = 9876
+# contador = 0
+# ingreso = int(input("ingrese la clave: "))
+
+# while ingreso != clave and contador < 2:
+#     print("clave incorrecta, ingresar nuevamente")
+#     contador +=1
+#     ingreso = int(input("ingrese la clave: "))
+
+# if ingreso == clave:
+#     print("clave correcta")
+# else:
+#     print("clave incorrecta o muchos intentos")
+
+# ##################3##################
+# nota =int(input("ingresar nota: "))
+# while nota < 1 or nota > 10:
+#     print("nota invalida")
+#     nota =int(input("ingresar nota: "))
+# print(f"La nota ingresada es válida: {nota}")
+
+###################4##################
+# color = input("ingrese un color:").lower()
+# while color != "rojo" and color !="verde" and color != "azul":
+#     print("No contamos con ese color en stock por el momento ")
+#     color = input("ingrese un color:").lower()
+# print(f"tenemos en stock color: {color}")

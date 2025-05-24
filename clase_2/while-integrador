@@ -1,0 +1,33 @@
+
+contador_total = 0
+suma_negartivo = 0
+suma_positivo = 0
+contador_negativo = 0
+contador_positivo = 0
+
+respuesta= (input("Quiere ingresar numeros?: si/no"))
+while respuesta == "si":
+    numero= int(input("Ingrese un numero: "))
+    if numero < 0:
+        suma_negartivo += numero
+        contador_total += 1
+        contador_negativo += 1
+        respuesta= (input("Quiere ingresar otro numeros?: si/no"))
+    else:
+        if contador_positivo == 0 or numero > maximo:
+            maximo = numero
+        suma_positivo += numero
+        contador_total +=1
+        contador_positivo +=1
+        respuesta= (input("Quiere ingresar otro numeros?: si/no"))
+
+promedio_positivo = suma_positivo / contador_positivo
+porcentaje_negativo = (contador_negativo * 100) /contador_total
+
+print(f"La suma de numeros negativos es: {suma_negartivo}")
+print(f"La suma de numeros positivos es: {suma_positivo}")
+print(f"La cantidad de numeros negativos fue: {contador_negativo}")
+print(f"El maximo ingresado es {maximo}")
+print(f"El promedio de los numeros positivos es {promedio_positivo:.2f}")
+    
+    
