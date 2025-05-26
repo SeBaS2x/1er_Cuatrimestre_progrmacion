@@ -37,8 +37,8 @@ def indicar_si_hay_impar(vector):
         if verificar_paridad(vector[i]) == False:
             encontro = True
     return encontro
-    
-    
-crear =crear_vector(0,5)
-cargar_vector(crear, "ingresar numero del vector ")
-mostrar_vector(crear)
+def mostrar_postivos_negativos(vector: list)->list:
+    for i in range(len(vector))
+# crear =crear_vector(0,5)
+# cargar_vector(crear, "ingresar numero del vector ")
+# mostrar_vector(crear)
